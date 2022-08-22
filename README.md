@@ -11,7 +11,7 @@ libmorpho is a free software library written in ANSI C that implements several b
 - [Documentation generated with doxygen](libmorphoDoc/index.html): see the [libmorphoDoc](libmorphoDoc/index.html) file
 
 ## Illustrations: 
-             <table class="post-table">
+<table class="post-table">
                 <tbody>
                   <tr>
                     <td>Original: <br> <a href="img/original.jpg"><img style="border: 0px solid" alt="Original"  src="img/original.jpg" align="middle"  width="200px"></a></td>
@@ -25,7 +25,7 @@ libmorpho is a free software library written in ANSI C that implements several b
                     <td>Closing: <br> <a href="img/closing.jpg"><img style="border: 0px solid" alt="Closing"  src="img/closing.jpg" align="middle"  width="200px"></a></td>
                   </tr>
                 </tbody>
-              </table>
+</table>
 
 
 ## How to cite this work:
