@@ -11,8 +11,6 @@ libmorpho is a free software library written in ANSI C that implements several b
 - [Documentation generated with doxygen](libmorphoDoc/index.html): see the [libmorphoDoc](libmorphoDoc/index.html) file
 
 ## Illustrations: 
-Original: 
-<a href="img/original.jpg"><img style="border: 0px solid" alt="Original Image" src="img/original.jpg" align="middle"  width="200px"></a>
              <table class="post-table">
                 <tbody>
                   <tr>
