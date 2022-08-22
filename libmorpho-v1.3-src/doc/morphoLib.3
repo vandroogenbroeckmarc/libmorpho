@@ -1,0 +1,50 @@
+.\" Copyright 2006 Marc Van Droogenbroeck
+.\" 
+.\" Permission is granted to make and distribute verbatim copies of this
+.\" manual provided the copyright notice and this permission notice are
+.\" preserved on all copies.
+.\" 
+.\" Permission is granted to copy and distribute modified versions of this
+.\" manual under the conditions for verbatim copying, provided that the
+.\" entire resulting derived work is distributed under the terms of a
+.\" permission notice identical to this one.
+.\" 
+.\" The author(s) assume no
+.\" responsibility for errors or omissions, or for damages resulting from
+.\" the use of the information contained herein.
+.\" 
+.TH "MORPHOLIB" "3" "2006-02-27" "Marc Van Droogenbroeck" "Linux Programmer's Manual"
+.SH "NAME"
+erosionByAnchor1D, erosionByAnchor2D, dilationByAnchor1D, dilationByAnchor2D, openingByAnchor1D, openingByAnchor2D, closingByAnchor1D, closingByAnchor2D  \- Fast one\-dimensional or two\-dimensional morphological erosion, dilation, opening and closing 
+.SH "SYNOPSIS"
+.nf 
+.B #include <morphoLib.h>
+.sp
+.BI "int erosionByAnchor1D(unsigned char *" "imageIn" ", unsigned char *" "imageOut" ", int " "imageWidth" ", int " "imageHeight" ", int " "size" ");
+.BI "int erosionByAnchor2D(unsigned char *" "imageIn" ", unsigned char *" "imageOut" ", int " "imageWidth" ", int " "imageHeight" ", int " "seWidth" ", int " "seHeight" ");
+.br 
+.BR 
+.BI "int dilationByAnchor1D(unsigned char *" "imageIn" ", unsigned char *" "imageOut" ", int " "imageWidth" ", int " "imageHeight" ", int " "size" ");
+.BI "int dilationByAnchor2D(unsigned char *" "imageIn" ", unsigned char *" "imageOut" ", int " "imageWidth" ", int " "imageHeight" ", int " "seWidth" ", int " "seHeight" ");
+.br 
+.BR 
+.BI "int openingByAnchor1D(unsigned char *" "imageIn" ", unsigned char *" "imageOut" ", int " "imageWidth" ", int " "imageHeight" ", int " "size" ");
+.BI "int openingByAnchor2D(unsigned char *" "imageIn" ", unsigned char *" "imageOut" ", int " "imageWidth" ", int " "imageHeight" ", int " "seWidth" ", int " "seHeight" ");
+.br 
+.BR 
+.BI "int closingByAnchor1D(unsigned char *" "imageIn" ", unsigned char *" "imageOut" ", int " "imageWidth" ", int " "imageHeight" ", int " "size" ");
+.BI "int closingByAnchor2D(unsigned char *" "imageIn" ", unsigned char *" "imageOut" ", int " "imageWidth" ", int " "imageHeight" ", int " "seWidth" ", int " "seHeight" ");
+.br 
+.fi 
+.sp
+unsigned char are defined as \fBuint8_t\fP
+.SH "DESCRIPTION"
+The \fBerosionByAnchor1D\fP() function performs the erosion of the image \fIimageIn\fP with a BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA   and outputs the result in the image \fIimageOut\fP.
+.SH "RETURN VALUE"
+Upon successful return, these functions return 0. They return \-1 on error.
+.SH "CONFORMING TO"
+SVID 3, POSIX, 4.3BSD, ISO 9899.
+The float and the long double variants are C99 requirements.
+.SH "SEE ALSO"
+.BR cos (3),
+.BR tan (3)

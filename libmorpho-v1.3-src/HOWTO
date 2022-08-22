@@ -1,0 +1,25 @@
+Order of commands used for creating a repository like this one
+--------------------------------------------------------------
+
+ autoscan
+ aclocal
+ mv configure.scan configure.in
+ emacs configure.in
+ aclocal
+ emacs acconfig.h
+ autoheader
+ emacs Makefile.am
+ less Makefile.am
+ automake --add-missing --foreign
+ autoconf
+ ./configure
+ make
+ ./main
+
+DO NOT USE these commands to install the library.
+Instead type:
+
+make 
+make lib
+make install 
+

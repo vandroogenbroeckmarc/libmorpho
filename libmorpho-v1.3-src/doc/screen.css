@@ -1,0 +1,338 @@
+/* --------------------------------------------------------------------------------- */
+/* The body - applied to all the page                                                */
+/* --------------------------------------------------------------------------------- */
+  body { margin: 0pt;
+    padding: 20px 10px;
+    background: rgb(165, 189, 199) none repeat scroll 0% 50%;
+    text-align: center;
+    font-family: "Trebuchet MS",Verdana,Arial,Sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1.5em;
+    font-size-adjust: none;
+    font-stretch: normal;
+    color: rgb(51, 51, 51);
+    font-size: small;
+    }
+
+  #content { margin: 0pt auto;
+    width: 86%;             
+    text-align: left;
+    }
+
+  #main { margin: 15px 0pt 0pt;
+    padding: 0pt 0pt 10px;
+    background: rgb(255, 255, 255) ;
+    width: 78%;   
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 97%;
+    line-height: 1.5em;
+    }
+
+  #main2 { padding: 10px 0pt 0pt;
+    background: rgb(255, 255, 255) ;
+    float: left;
+    width: 100%;
+    }
+
+  #main3 { padding: 0pt;
+    background: rgb(255, 255, 255) ;
+    }
+
+  /* ce qui va contenir le menu et un cadre blanc eventuel en dessous */
+  #sidebar { margin: 15px 0pt 0pt;
+    width: 21%; 
+    float: right;
+    font-size: 97%;
+    line-height: 1.5em;
+    }
+
+  /* Les couleurs des liens du corps de la page (blanc)) */
+  a:link {text-decoration: none;  color: rgb(0, 77, 86); }
+  a:visited {text-decoration: none;  color: rgb(0, 77, 86); }
+  a:hover { color: rgb(30, 30, 30); background-color: rgb(204,221,204) ; }
+  a img { border-width: 0pt;  } 
+
+/* --------------------------------------------------------------------------------- */
+/* Header                                                                            */
+/* --------------------------------------------------------------------------------- */
+
+  #header { margin: 0pt;
+    padding: 8px 0pt 0pt;
+    background: rgb(0, 77, 86) ;
+    color: rgb(255, 255, 255);
+    }
+
+  #header div { padding: 0pt 15px 8px;
+    background: transparent ;
+    }
+
+  #maintitle { margin: 0pt;
+    padding: 10px 30px 5px;
+    font-size: 200%;
+    line-height: 1.2em;
+    }
+
+  #maintitle a { text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
+
+  #description { margin: 0pt;
+    padding: 5px 30px 10px;
+    font-size: 94%;
+    line-height: 1.5em;
+    }
+
+  .date-header { margin: 0pt 28px 0pt 43px;
+    font-size: 85%;
+    line-height: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: rgb(51, 85, 119);
+    }
+
+  a.title-link:link {  text-decoration: none; color: rgb(204, 221, 204); }
+  a.title-link:visited {  text-decoration: none; color: rgb(255, 255, 255);}
+  a.title-link:hover {  text-decoration: none; color: rgb(204, 221, 204); }
+
+
+  #header a:link {  text-decoration: none; color: rgb(255, 255, 255);  background: rgb(0, 77, 86); }
+  #header a:hover {  text-decoration: none; color: rgb(204, 221, 204);  background: rgb(0, 77, 86); }
+
+  #container a { color: rgb(34, 85, 136);
+    }
+
+  #header img { 
+    border: 0px solid;
+    float: right; 
+    width: 82px;
+    }
+
+/* --------------------------------------------------------------------------------- */
+/* Posts section                                                                     */
+/* --------------------------------------------------------------------------------- */
+
+  .post { border-style: dotted;
+    border-color: rgb(187, 187, 187);
+    border-width: 1px 0pt;
+    margin: 0.3em 0pt 25px;
+    padding: 0pt 13px;
+    }
+
+  .post-title { border-style: dotted;
+    border-color: rgb(187, 187, 187);
+    border-width: 0pt 1px 1px;
+    margin: 0pt;
+    padding: 2px 14px 2px 29px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 10px 0.5em;
+    font-size: 135%;
+    line-height: 1.5em;
+    display: block;
+    color: rgb(51, 51, 51);
+    }
+
+  .post-body { border-style: dotted;
+    border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(255, 255, 255);
+    border-width: 0pt 1px 1px;
+    padding: 10px 14px 1px 29px;
+    }
+
+  html > body .post-body { border-bottom-width: 0pt;
+    }
+
+  .post-table { 
+    text-align: left; 
+    width: 100%;
+    border: 0; 
+    border-collapse: collapse; 
+    border-spacing: 0;
+    padding: 0em;
+    font-size: small;
+    }
+   td, th { padding: 0; }
+
+  .post-body ul { margin: 0.5em 0pt 1.25em;
+    padding: 0pt 0px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    }
+
+  .post-body ul li { 
+    margin: 0pt 0pt 3px;
+    padding: 0pt 0pt 3px 16px;
+    background: transparent url(../images/icon_arrow_sm.gif) no-repeat scroll 2px 0.25em;
+     }
+
+  .post p { margin: 0pt 0pt 0.75em;
+    }
+
+  p.post-footer { border-style: dotted dotted solid;
+    border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(238, 238, 238);
+    border-width: 1px;
+    margin: 0pt;
+    padding: 2px 14px 2px 29px;
+    background: rgb(221, 238, 221) none repeat scroll 0% 50%;
+    font-size: 100%;
+    line-height: 1.5em;
+    color: rgb(102, 102, 102);
+    text-align: right;
+    }
+
+ 
+
+  p.post-footer em { display: block;
+    float: left;
+    text-align: left;
+    font-style: normal;
+    }
+
+  a.comment-link { background: transparent url(../images/icon_comment.gif) no-repeat scroll 0pt 45%;
+    padding-left: 14px;
+    }
+
+  html > body a.comment-link { background: transparent url(../images/icon_comment.gif) no-repeat scroll 0pt 45%;
+    padding-left: 14px;
+    }
+
+  .post img { border: 1px solid rgb(204, 204, 204);
+    margin: 0pt 0pt 5px;
+    padding: 4px;
+    }
+
+  blockquote { border-style: dotted;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px 0pt;
+    margin: 0.75em 0pt;
+    padding: 5px 15px;
+    color: rgb(102, 102, 102);
+    }
+
+  .post blockquote p { margin: 0.5em 0pt;
+    }
+
+  .deleted-comment { font-style: italic;
+    color: gray;
+    }
+
+  /* Pour le menu du dessus de la section Publications */
+  a.menu-link { color: rgb(0, 77, 86); }
+  a.menu-link:hover { color: rgb(204, 221, 204); text-decoration: none; }
+
+/* --------------------------------------------------------------------------------- */
+/*  Tout ce qui se trouve dans le menu de droite                                     */
+/* --------------------------------------------------------------------------------- */
+
+  #container { margin: 0pt 0pt 15px;
+    padding: 0pt 0pt 10px;
+    background: rgb(204, 221, 204) ;
+    color: rgb(51, 68, 85);
+    }
+
+  #photo-container { margin: -15pt 0pt 15px;
+    padding: 10pt 0pt 10px;
+    background: rgb(255, 255, 255) ;
+    color: rgb(51, 68, 85);
+    text-align: center;
+    }
+
+  #container h2 { border-width: 0pt;
+    margin: 0pt;
+    padding: 10px 15px 0.2em;
+    background: transparent ;
+    font-size: 115%;
+    line-height: 1.5em;
+    color: rgb(34, 51, 68);
+    }
+
+  .profile-datablock { border-top: 1px dotted rgb(170, 187, 170);
+    margin: 0pt 15px 0.5em;
+    padding-top: 8px;
+    }
+
+  .profile-img { display: inline;
+    }
+
+  .profile-img img { border: 4px solid rgb(255, 255, 255);
+    margin: 0pt 10px 5px 0pt;
+    float: left;
+    }
+
+  .profile-data strong { display: block;
+    }
+
+  #container p { margin: 0pt 15px 0.5em; }
+
+  #container .profile-textblock { clear: left; }
+
+  #container a { color: rgb(34, 85, 136); } 
+  #container a:hover { color: rgb(0, 77, 86); background-color: rgb(134, 151, 168)}
+
+
+  .profile-link a { background: transparent url(../images/icon_profile.gif) no-repeat scroll 0pt 0.1em;
+    padding-left: 15px;
+    font-weight: bold;
+    }
+
+  .box { margin: 0pt 0pt 15px;
+    padding: 10px 0pt 0pt;
+    background: rgb(255, 255, 255) ;
+    color: rgb(102, 102, 102);
+    }
+
+  .box2 { padding: 0pt 13px 8px;
+    background: transparent ;
+    }
+
+  .sidebar-title { border-bottom: 1px dotted rgb(153, 187, 153);
+    margin: 0pt;
+    padding: 0pt 0pt 0.2em;
+    font-size: 115%;
+    line-height: 1.5em;
+    color: rgb(51, 51, 51);
+    }
+
+  .box ul { margin: 0.5em 0pt 1.25em;
+    padding: 0pt 0px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    }
+
+  .box ul li { border-bottom: 1px dotted rgb(238, 238, 238);
+    margin: 0pt 0pt 3px;
+    padding: 0pt 0pt 3px 16px;
+    background: transparent url(../images/icon_arrow_sm.gif) no-repeat scroll 2px 0.25em;
+    line-height: 1.4em;
+    }
+
+  .box p { margin: 0pt 0pt 0.6em;
+    }
+
+/* --------------------------------------------------------------------------------- */
+/* Footer                                                                            */
+/* --------------------------------------------------------------------------------- */
+  #footer { margin: 0pt;
+    padding: 15px 0pt 0pt;
+    clear: both;
+    }
+
+  #footer div { padding: 8px 0pt 0pt;
+    background: rgb(0, 77, 86) ;
+    color: rgb(255, 255, 255);
+    }
+
+  #footer div div { padding: 0pt 15px 8px;
+    background: transparent ;
+    }
+
+  #footer hr { display: none; }
+  #footer p { margin: 0pt; }
+  #footer a { color: rgb(255, 255, 255); }
+  #foot-image  { background: transparent ; }
+
