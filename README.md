@@ -8,7 +8,7 @@ libmorpho is a free software library written in ANSI C that implements several b
 - [Implementation in the C langage](libmorpho-v1.3-src): see the [libmorpho-v1.3-src](libmorpho-v1.3-src) directory
 
 ## Documentation: 
-- [Documentation generated with doxygen](libmorphoDoc): see the [libmorphoDoc](libmorphoDoc) directory
+- [Documentation generated with doxygen](libmorphoDoc/index.html): see the [libmorphoDoc](libmorphoDoc/index.html) file
 
 ## Illustrations: 
 Original: 
