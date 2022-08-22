@@ -8,7 +8,7 @@ libmorpho is a free software library written in ANSI C that implements several b
 - [Implementation in the C langage](libmorpho-v1.3-src): see the [libmorpho-v1.3-src](libmorpho-v1.3-src) directory
 
 ## Documentation: 
-- [Documentation generated with doxygen](libmorphoDoc/index.html): see the [libmorphoDoc](libmorphoDoc/index.html) file
+- [Documentation generated with doxygen](libmorphoDoc/index.html): see the [libmorphoDoc](libmorphoDoc) directory or follow the link http://www.telecom.ulg.ac.be/research/libmorphoDoc/index.html
 
 ## Illustrations: 
 <table class="post-table">
@@ -24,8 +24,10 @@ libmorpho is a free software library written in ANSI C that implements several b
                     <td>Opening: <br> <a href="img/opening.jpg"><img style="border: 0px solid" alt="Opening"  src="img/opening.jpg" align="middle"  width="200px"></a></td>
                     <td>Closing: <br> <a href="img/closing.jpg"><img style="border: 0px solid" alt="Closing"  src="img/closing.jpg" align="middle"  width="200px"></a></td>
                   </tr>
-                </tbody>
+                </tbody>      
 </table>
+
+More on http://www.telecom.ulg.ac.be/research/libmorphoDoc/illustrationPage.html
 
 
 ## How to cite this work:
