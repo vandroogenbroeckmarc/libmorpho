@@ -15,7 +15,7 @@ libmorpho is a free software library written in ANSI C that implements several b
                 <tbody>
                   <tr>
                     <td>Original: <br> <a href="img/original.jpg"><img style="border: 0px solid" alt="Original"  src="img/original.jpg" align="middle"  width="200px"></a></td>
-                    <td>U-shaped SE (scale: 200%): <br> <a href="img/U.jpg"><img style="border: 0px solid" alt="U-shaped SE" src="img/U.jpg" align="middle"></a></td>
+                    <td>U-shaped SE (upscaled though): <br> <a href="img/U.jpg"><img style="border: 0px solid" alt="U-shaped SE" src="img/U.jpg" align="middle"></a></td>
                   </tr>  <tr>
                     <td>Erosion: <br> <a href="img/erosion.jpg"><img style="border: 0px solid" alt="Erosion"  src="img/erosion.jpg" align="middle"  width="200px"></a></td>
                     <td>Dilation:<br> <a href="img/dilation.jpg"><img style="border: 0px solid" alt="Dilation" src="img/dilation.jpg" align="middle"  width="200px"></a></td>
